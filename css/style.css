@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #101419;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER: LOGO + NAV */
+header {
+    background-image: url('../images/background.jpg');
+    color: #4b4b4b;
+    padding-top: 30px;
+}
+
+#header_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+    line-height: 2.5;
+}
+
+#logo_container {
+    text-align: center;
+}
+
+div#header_container span, .nav_container a {
+    color: #ea9f05;
+}
+
+#header_hello_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hello_text {
+    text-align: end;
+}
+
+.nav_container {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ea9f05;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul.nav_container li {
+    padding-left: 5px;
+}
+
+img[alt = 'Logo Sport.com'] {
+    width: 250px;
+}
+
+
+/* MAIN: IMG + PRODUCTS */
+#products_container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #f3f3f3;
+    color: #4b4b4b;
+    font-weight: bold;
+}
+
+img[alt ='Deux boxeurs'] {
+    width: 100%;
+}
+
+.gant_card {
+    margin: 20px 20px 0;
+    padding-bottom: 40px;
+}
+
+img.gant_picture {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    bottom: 30px;
+    left: 182px;
+    text-align: center;
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.relative {
+    position: relative;
+    overflow: visible;
+}
+
+.absolute {
+    position: absolute;
+}
+
+button {
+    background-color: #282828;
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container_caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_caption p span {
+    color: #ea9f05;
+}
+
+.container_caption p span.old_price {
+    text-decoration: line-through;
+    color: #4b4b4b;
+    margin-right: 5px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+
+/* FOOTER: NAV + FOOTER + COPYRIGHTS */
+#nav_footer_container {
+    background-color: white;
+    width: 78%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #282828;
+}
+
+#footer_details_container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative;
+}
+
+#nav_footer_container {
+    /* position: absolute; */
+}
+
+#nav_footer_container li {
+    list-style: none;
+    padding: 5px;
+}
+
+#nav_footer_container a {
+    color: #4b4b4b;
+}
+
+#nav_footer_container a:hover {
+    text-decoration: underline;
+}
+
+.bloc {
+    width: 30%;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.bloc img {
+    padding-bottom: 10px;
+}
+
+#copyright {
+    color: #4b4b4b;
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    #header_container {
+        flex-direction: row;
+        width: 80%;
+    }
+
+    #logo_container{
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .nav_container {
+        justify-content: end;
+    }
+
+    #products_container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    img.gant_picture {
+        width: 260px;
+    }
+
+    h2 {
+        left: 64px;
+        bottom: 18px;
+    }
+
+    #footer_details_container {
+        flex-wrap: nowrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #footer_details_container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* #header_hello_container {
+        align-items: end;
+    } */
+}
