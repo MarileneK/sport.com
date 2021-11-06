@@ -8,5 +8,5 @@ The aim was to put into practice my HTML & CSS knowledge, but also to make it re
 (Exercise given during my intensive coursework in coding @WebForce3. You can find the mock-ups in the folder: images < mock-ups.)
 
 ## Technos
-HTML, CSS, Responsive Design.
+HTML, CSS (Responsive Design).
 

@@ -162,9 +162,9 @@ footer {
     position: relative;
 }
 
-#nav_footer_container {
-    /* position: absolute; */
-}
+/* #nav_footer_container {
+    position: absolute;
+} */
 
 #nav_footer_container li {
     list-style: none;
